@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455FC64981916C5268831166 /* Pods_wisdomLeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB2222E09C8176F36C10F45 /* Pods_wisdomLeaf.framework */; };
+		7DB3FB8C2C4A032C00CE652C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FB8B2C4A032C00CE652C /* AppDelegate.swift */; };
+		7DB3FB8E2C4A032C00CE652C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FB8D2C4A032C00CE652C /* SceneDelegate.swift */; };
+		7DB3FB932C4A032C00CE652C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FB922C4A032C00CE652C /* Base */; };
+		7DB3FB952C4A032E00CE652C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FB942C4A032E00CE652C /* Assets.xcassets */; };
+		7DB3FB982C4A032E00CE652C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FB972C4A032E00CE652C /* Base */; };
+		7DB3FBA72C4A04D500CE652C /* SpalshScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBA62C4A04D500CE652C /* SpalshScreenController.swift */; };
+		7DB3FBA92C4A055F00CE652C /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBA82C4A055F00CE652C /* Macros.swift */; };
+		7DB3FBAB2C4A124900CE652C /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBAA2C4A124900CE652C /* DashboardController.swift */; };
+		7DB3FBAD2C4A160300CE652C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBAC2C4A160300CE652C /* TabBarController.swift */; };
+		7DB3FBAF2C4A1ABB00CE652C /* MovieDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBAE2C4A1ABB00CE652C /* MovieDetailsController.swift */; };
+		7DB3FBB12C4A295900CE652C /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBB02C4A295900CE652C /* FavoritesController.swift */; };
+		7DB3FBB82C4A33F900CE652C /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBB62C4A33F900CE652C /* MovieTableViewCell.swift */; };
+		7DB3FBB92C4A33F900CE652C /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FBB72C4A33F900CE652C /* MovieTableViewCell.xib */; };
+		7DB3FBBC2C4A48AE00CE652C /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBBA2C4A48AE00CE652C /* FavoritesTableViewCell.swift */; };
+		7DB3FBBD2C4A48AE00CE652C /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FBBB2C4A48AE00CE652C /* FavoritesTableViewCell.xib */; };
+		7DB3FBC02C4A63FB00CE652C /* FavoritesHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3FBBE2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.swift */; };
+		7DB3FBC12C4A63FB00CE652C /* FavoritesHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3FBBF2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.xib */; };
+		7DCF998A2C4D75260016ECB8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF99892C4D75260016ECB8 /* ApiManager.swift */; };
+		7DCF998C2C4D762F0016ECB8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF998B2C4D762F0016ECB8 /* NetworkManager.swift */; };
+		7DCF998E2C4D8C640016ECB8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF998D2C4D8C640016ECB8 /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DDBB7A5AA34C842F3D822FA /* Pods-wisdomLeaf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wisdomLeaf.release.xcconfig"; path = "Target Support Files/Pods-wisdomLeaf/Pods-wisdomLeaf.release.xcconfig"; sourceTree = "<group>"; };
+		3FB2222E09C8176F36C10F45 /* Pods_wisdomLeaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wisdomLeaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB3FB882C4A032C00CE652C /* wisdomLeaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wisdomLeaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB3FB8B2C4A032C00CE652C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DB3FB8D2C4A032C00CE652C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DB3FB922C4A032C00CE652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DB3FB942C4A032E00CE652C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB3FB972C4A032E00CE652C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DB3FB992C4A032E00CE652C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB3FBA62C4A04D500CE652C /* SpalshScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshScreenController.swift; sourceTree = "<group>"; };
+		7DB3FBA82C4A055F00CE652C /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		7DB3FBAA2C4A124900CE652C /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		7DB3FBAC2C4A160300CE652C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7DB3FBAE2C4A1ABB00CE652C /* MovieDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsController.swift; sourceTree = "<group>"; };
+		7DB3FBB02C4A295900CE652C /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		7DB3FBB62C4A33F900CE652C /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		7DB3FBB72C4A33F900CE652C /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		7DB3FBBA2C4A48AE00CE652C /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		7DB3FBBB2C4A48AE00CE652C /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		7DB3FBBE2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		7DB3FBBF2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		7DCF99892C4D75260016ECB8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7DCF998B2C4D762F0016ECB8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7DCF998D2C4D8C640016ECB8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CA0466FFA7D6B10B3D27A235 /* Pods-wisdomLeaf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wisdomLeaf.debug.xcconfig"; path = "Target Support Files/Pods-wisdomLeaf/Pods-wisdomLeaf.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB3FB852C4A032C00CE652C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455FC64981916C5268831166 /* Pods_wisdomLeaf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21215D9A79375E1F9B3D99FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA0466FFA7D6B10B3D27A235 /* Pods-wisdomLeaf.debug.xcconfig */,
+				2DDBB7A5AA34C842F3D822FA /* Pods-wisdomLeaf.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DB3FB7F2C4A032C00CE652C = {
+			isa = PBXGroup;
+			children = (
+				7DB3FB8A2C4A032C00CE652C /* wisdomLeaf */,
+				7DB3FB892C4A032C00CE652C /* Products */,
+				21215D9A79375E1F9B3D99FB /* Pods */,
+				9195BD94DF5FB69E1724EBE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB3FB892C4A032C00CE652C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FB882C4A032C00CE652C /* wisdomLeaf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB3FB8A2C4A032C00CE652C /* wisdomLeaf */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FBA52C4A04A800CE652C /* View */,
+				7DB3FBA42C4A049500CE652C /* Controller */,
+				7DB3FBA32C4A048500CE652C /* Model */,
+				7DB3FBA22C4A045B00CE652C /* Storyboards */,
+				7DB3FBA12C4A043E00CE652C /* Resources */,
+				7DB3FBA02C4A042600CE652C /* Healpers */,
+				7DB3FB9F2C4A03ED00CE652C /* SupportingFiles */,
+				7DB3FB992C4A032E00CE652C /* Info.plist */,
+			);
+			path = wisdomLeaf;
+			sourceTree = "<group>";
+		};
+		7DB3FB9F2C4A03ED00CE652C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FB8B2C4A032C00CE652C /* AppDelegate.swift */,
+				7DB3FB8D2C4A032C00CE652C /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7DB3FBA02C4A042600CE652C /* Healpers */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FBA82C4A055F00CE652C /* Macros.swift */,
+				7DCF99892C4D75260016ECB8 /* ApiManager.swift */,
+				7DCF998B2C4D762F0016ECB8 /* NetworkManager.swift */,
+			);
+			path = Healpers;
+			sourceTree = "<group>";
+		};
+		7DB3FBA12C4A043E00CE652C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FB942C4A032E00CE652C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DB3FBA22C4A045B00CE652C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FB912C4A032C00CE652C /* Main.storyboard */,
+				7DB3FB962C4A032E00CE652C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7DB3FBA32C4A048500CE652C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DCF998D2C4D8C640016ECB8 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DB3FBA42C4A049500CE652C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FBA62C4A04D500CE652C /* SpalshScreenController.swift */,
+				7DB3FBAA2C4A124900CE652C /* DashboardController.swift */,
+				7DB3FBAC2C4A160300CE652C /* TabBarController.swift */,
+				7DB3FBAE2C4A1ABB00CE652C /* MovieDetailsController.swift */,
+				7DB3FBB02C4A295900CE652C /* FavoritesController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DB3FBA52C4A04A800CE652C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3FBB62C4A33F900CE652C /* MovieTableViewCell.swift */,
+				7DB3FBB72C4A33F900CE652C /* MovieTableViewCell.xib */,
+				7DB3FBBA2C4A48AE00CE652C /* FavoritesTableViewCell.swift */,
+				7DB3FBBB2C4A48AE00CE652C /* FavoritesTableViewCell.xib */,
+				7DB3FBBE2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.swift */,
+				7DB3FBBF2C4A63FB00CE652C /* FavoritesHeaderTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9195BD94DF5FB69E1724EBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB2222E09C8176F36C10F45 /* Pods_wisdomLeaf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB3FB872C4A032C00CE652C /* wisdomLeaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB3FB9C2C4A032E00CE652C /* Build configuration list for PBXNativeTarget "wisdomLeaf" */;
+			buildPhases = (
+				4A16E9B725863C0E0B548DF9 /* [CP] Check Pods Manifest.lock */,
+				7DB3FB842C4A032C00CE652C /* Sources */,
+				7DB3FB852C4A032C00CE652C /* Frameworks */,
+				7DB3FB862C4A032C00CE652C /* Resources */,
+				02516C1F1499ADF660CC2C6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wisdomLeaf;
+			productName = wisdomLeaf;
+			productReference = 7DB3FB882C4A032C00CE652C /* wisdomLeaf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB3FB802C4A032C00CE652C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7DB3FB872C4A032C00CE652C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7DB3FB832C4A032C00CE652C /* Build configuration list for PBXProject "wisdomLeaf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB3FB7F2C4A032C00CE652C;
+			productRefGroup = 7DB3FB892C4A032C00CE652C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB3FB872C4A032C00CE652C /* wisdomLeaf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB3FB862C4A032C00CE652C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3FB952C4A032E00CE652C /* Assets.xcassets in Resources */,
+				7DB3FBC12C4A63FB00CE652C /* FavoritesHeaderTableViewCell.xib in Resources */,
+				7DB3FBBD2C4A48AE00CE652C /* FavoritesTableViewCell.xib in Resources */,
+				7DB3FBB92C4A33F900CE652C /* MovieTableViewCell.xib in Resources */,
+				7DB3FB982C4A032E00CE652C /* Base in Resources */,
+				7DB3FB932C4A032C00CE652C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02516C1F1499ADF660CC2C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wisdomLeaf/Pods-wisdomLeaf-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wisdomLeaf/Pods-wisdomLeaf-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wisdomLeaf/Pods-wisdomLeaf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A16E9B725863C0E0B548DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wisdomLeaf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB3FB842C4A032C00CE652C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB3FBBC2C4A48AE00CE652C /* FavoritesTableViewCell.swift in Sources */,
+				7DB3FBB82C4A33F900CE652C /* MovieTableViewCell.swift in Sources */,
+				7DB3FBA92C4A055F00CE652C /* Macros.swift in Sources */,
+				7DB3FBA72C4A04D500CE652C /* SpalshScreenController.swift in Sources */,
+				7DB3FBC02C4A63FB00CE652C /* FavoritesHeaderTableViewCell.swift in Sources */,
+				7DB3FBAB2C4A124900CE652C /* DashboardController.swift in Sources */,
+				7DB3FBB12C4A295900CE652C /* FavoritesController.swift in Sources */,
+				7DB3FBAD2C4A160300CE652C /* TabBarController.swift in Sources */,
+				7DCF998A2C4D75260016ECB8 /* ApiManager.swift in Sources */,
+				7DB3FB8C2C4A032C00CE652C /* AppDelegate.swift in Sources */,
+				7DCF998C2C4D762F0016ECB8 /* NetworkManager.swift in Sources */,
+				7DB3FB8E2C4A032C00CE652C /* SceneDelegate.swift in Sources */,
+				7DB3FBAF2C4A1ABB00CE652C /* MovieDetailsController.swift in Sources */,
+				7DCF998E2C4D8C640016ECB8 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DB3FB912C4A032C00CE652C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB3FB922C4A032C00CE652C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DB3FB962C4A032E00CE652C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB3FB972C4A032E00CE652C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB3FB9A2C4A032E00CE652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DB3FB9B2C4A032E00CE652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB3FB9D2C4A032E00CE652C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0466FFA7D6B10B3D27A235 /* Pods-wisdomLeaf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wisdomLeaf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Task.wisdomLeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB3FB9E2C4A032E00CE652C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDBB7A5AA34C842F3D822FA /* Pods-wisdomLeaf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wisdomLeaf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Task.wisdomLeaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB3FB832C4A032C00CE652C /* Build configuration list for PBXProject "wisdomLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB3FB9A2C4A032E00CE652C /* Debug */,
+				7DB3FB9B2C4A032E00CE652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB3FB9C2C4A032E00CE652C /* Build configuration list for PBXNativeTarget "wisdomLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB3FB9D2C4A032E00CE652C /* Debug */,
+				7DB3FB9E2C4A032E00CE652C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB3FB802C4A032C00CE652C /* Project object */;
+}
